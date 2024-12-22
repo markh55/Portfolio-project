@@ -32,6 +32,18 @@ h2 {
     background-color: lightgray;
 }
 
+#portfolio .card-title {
+    color: #1f7798;
+    font-size: 1.2rem;
+}
+
+#portfolio .btn-outline-secondary:hover {
+    background-color: #1f7798;    
+}
+
+#portfolio .card-title {
+    min-height: 120px;
+}
 /* Contact section */
 
 #contact {
@@ -46,4 +58,11 @@ h2 {
     min-height: 500px;
     padding: 5% 7%;
 
+}
+
+@media screen and (min-width: 1200px) {
+    #portfolio .card-title {
+        min-height: auto;
+    }
+    
 }
